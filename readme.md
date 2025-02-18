@@ -8,6 +8,11 @@ Sign the Image using **SHA-256**.
 Embed & Verify Signature via **steganography**.
 Hide & Extract **Secret Messages**.
 
+Requirements:
+```cmd
+pip install cryptography stegano
+```
+
 Execution:
 ```python
    python overall_code.py
@@ -20,6 +25,11 @@ This script hides and extracts secret messages using LSB steganography.
 ## Features
 - **Hide a message** inside an image.
 - **Extract the hidden message** from the modified image.
+
+Requirements:
+```cmd
+pip install stegano
+```
 
 ## Execution
 1. **Hide a Message**  
